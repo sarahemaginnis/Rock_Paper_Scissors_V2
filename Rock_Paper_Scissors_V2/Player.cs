@@ -8,11 +8,11 @@ namespace Rock_Paper_Scissors_V2
 {
     public class Player
     {
-        public string playerChoice = "";
-
-        public string PlayerChoiceDetermination()
+        public int PlayerChoiceDetermination()
         {
-            return playerChoice = Console.ReadLine();
+            string playerChoice = Console.ReadLine();
+            int playerChoiceAsInt = int.Parse(playerChoice); //convert playerChoice variable from string to int
+            return playerChoiceAsInt;
         }
     }
 }

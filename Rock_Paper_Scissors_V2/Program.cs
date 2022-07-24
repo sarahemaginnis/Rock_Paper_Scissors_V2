@@ -18,4 +18,6 @@ What would you like to throw?
 3) Scissors");
     player.PlayerChoiceDetermination();
     game.WinnerDetermination();
+    Console.ReadKey();
+    Console.Clear();
 }
