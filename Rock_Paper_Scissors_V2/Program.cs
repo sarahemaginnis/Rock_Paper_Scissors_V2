@@ -17,7 +17,8 @@ What would you like to throw?
 2) Paper
 3) Scissors");
     player.PlayerChoiceDetermination();
-    game.WinnerDetermination();
+    //need save playerChoiceDetermination as a variable
+    Console.WriteLine(game.WinnerDetermination());
     Console.ReadKey();
     Console.Clear();
 }

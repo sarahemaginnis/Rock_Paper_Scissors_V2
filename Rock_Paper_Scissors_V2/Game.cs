@@ -15,7 +15,7 @@ namespace Rock_Paper_Scissors_V2
         public int computerPoints = 0;
         public string WinnerDetermination()
         {
-            Options.Choices playerChoiceAsEnum = (Options.Choices)player.playerChoiceAsInt;//cast playerChoiceAsInt variable from int to enum;
+            Options.Choices playerChoiceAsEnum = (Options.Choices)player.PlayerChoiceDetermination();//cast playerChoiceAsInt variable from int to enum;
             switch (playerChoiceAsEnum)
             {
                 case Options.Choices.Rock:
